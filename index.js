@@ -10,5 +10,5 @@ app.get('/', (req, res)=>{
 })
 
 app.listen(PORT, ()=>{
-    console.log(`http://localhost:${process.env.PORT}`);
+    console.log(`http://localhost:${PORT}`);
 })
