@@ -9,6 +9,6 @@ app.get('/', (req, res)=>{
     res.send('Hello this is from server');
 })
 
-app.listen(process.env.PORT, ()=>{
+app.listen(PORT, ()=>{
     console.log(`http://localhost:${process.env.PORT}`);
 })
